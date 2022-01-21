@@ -1,1 +1,1 @@
-# k8s-envitonment
+# k8s-environment
