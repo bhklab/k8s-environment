@@ -23,7 +23,7 @@ docker run --rm -v $(pwd)/data:/mnt \
     -e CONTAINER_RUNTIME=docker\
     -e CNI_PROVIDER=flannel\
     -e ETCD_INITIAL_CLUSTER=${controllers}\
-    -e ETCD_IP="%{networking.ip}"\
+    -e ETCD_IP="206.12.96.235"\
     -e KUBE_API_ADVERTISE_ADDRESS="206.12.96.235"\
     -e INSTALL_DASHBOARD=true\
     puppet/kubetool:${kubetool_version}
